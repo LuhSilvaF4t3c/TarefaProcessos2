@@ -6,6 +6,15 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class Controller {
+
+	public Controller() {
+		super ();
+    }
+
+	public String os() {
+		String os = System.getProperty("os.name");
+		return os;
+	}
 	
 	public void callProcess(String process) {
 		try {
