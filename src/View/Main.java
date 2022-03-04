@@ -14,10 +14,9 @@ public class Main {
 			String process = "TASKLIST /FO TABLE";
 			controller.readProcess(process);
 
-//			String process = "TASKKILL /PID ";
-//			controller.callProcess(process);
+//			String process = "TASKKILL / ";
+//  		controller.callProcess(process);
 			
-
 	}
 
 }

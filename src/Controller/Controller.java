@@ -11,7 +11,7 @@ public class Controller {
 		super ();
     }
 
-	public String os() {
+	private String os() {
 		String os = System.getProperty("os.name");
 		return os;
 	}
